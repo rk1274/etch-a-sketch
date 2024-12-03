@@ -15,7 +15,7 @@ let setNumDivs = (num) => {
     let oldMax = container.childElementCount;
 
     for (let i = 0; i < oldMax; i++) {
-        if (i < max) {
+        if (i < max+1) {
             container.children[i].style.height = 'calc(calc(500px/'+num+') - 2px)'
             container.children[i].style.width = 'calc(calc(500px/'+num+') - 2px)'
             container.children[i].style.backgroundColor = '';
@@ -31,7 +31,7 @@ let setNumDivs = (num) => {
 
     let newMax = max-oldMax
 
-    for (let i = 0; i < newMax; i++) {
+    for (let i = 0; i < newMax+1; i++) {
         let div = document.createElement("div");
         container.appendChild(div);
 
@@ -42,7 +42,7 @@ let setNumDivs = (num) => {
         console.log(div.style.width)
     
         div.addEventListener('mouseover', () => {
-            div.style.backgroundColor = '#B9E5E8';
+            div.style.backgroundColor = '#7AB2D3';
         });
     }
 }

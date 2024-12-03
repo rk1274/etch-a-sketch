@@ -18,11 +18,11 @@ body {
     height:500px;
     display: flex;
     flex-flow: row wrap;
-    border: 2px solid #B9E5E8;
+    border: 2px solid #7AB2D3;
 }
 
 .container div {
-    border: 1px solid #B9E5E8;
+    border: 1px solid #7AB2D3;
 }
 
 .slidecontainer {
