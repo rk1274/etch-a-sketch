@@ -42,7 +42,7 @@ let setNumDivs = (num) => {
         console.log(div.style.width)
     
         div.addEventListener('mouseover', () => {
-            div.style.backgroundColor = '#7AB2D3';
+            div.style.backgroundColor = '#659287';
         });
     }
 }
